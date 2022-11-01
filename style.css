@@ -1,0 +1,138 @@
+.wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    grid-auto-rows: minmax(15vh, auto);
+  }
+
+  .header{
+    grid-column: 1/4;
+    grid-row: 1;
+    background-color: slateblue;
+    
+    
+
+  }
+
+  .sidebar{
+    grid-column: 1;
+    grid-row: 2/4;
+    background-color: floralwhite;
+   
+    width: 15vw;
+    height: 100vh;
+    margin-top: 0;
+
+
+  }
+
+  .main{
+    grid-column: 2/4;
+    grid-row: 2/4;
+    background-color: aliceblue;
+    display: flex;
+    
+    width: 85vw;
+    height: 100vh;
+  }
+
+ .headlist li {
+    list-style-type:none ;
+    display: inline;
+    color: white;
+    font-size: large;
+    padding: 2vw;
+
+  }
+  .headlist a{
+    color:aliceblue;
+    font-weight: bold;
+    
+  }
+
+ 
+
+ .side  {
+    list-style-type: none;
+    margin-left: 0.25vw;
+    
+    padding: 1vh;
+  }
+
+  .side  li {
+    margin: 1vh;
+    padding: 0.25vh;
+    font-size: medium;
+    
+  }
+  .side a{
+    color: rgb(12, 13, 15);
+    font-weight: 200;
+  }
+  a:hover{
+    color: rgb(238, 15, 15);
+  }
+
+  .logo{
+    font-size: 2.5vw;
+    color: whitesmoke;
+    font-family: 'Lalezar', cursive;
+    margin:1vw 1vh;
+    
+    bottom: 5;
+    
+
+  }
+
+  .container{
+    width: 100%;
+    height: 100%;
+    
+   
+  }
+
+  .article{
+    width:48%;
+    height: 48%;
+    float: left;
+    
+    
+    
+    
+  }
+
+  .article article{
+    display: flex;  
+    padding: 5px;
+    margin: 5px;
+    
+    
+  
+  }
+
+ 
+
+  .footer{
+    background-color: rgb(23, 134, 225);
+    margin: 0;
+    padding: 0;
+  }
+
+  .footlist{
+    list-style-type:none ;
+    padding: 0;
+    margin: 0;
+    
+
+  }
+
+  .footlist li {
+    display: inline;
+    padding-left: 5px;
+
+  }
+
+  .footlist a{
+    color : whitesmoke;
+    font-weight: bold;
+  }
